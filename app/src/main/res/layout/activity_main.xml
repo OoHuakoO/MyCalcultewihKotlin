@@ -5,15 +5,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-   android:orientation="vertical"
+    android:orientation="vertical"
         >
     <TextView
         android:id="@+id/tvInput"
-    android:layout_height="250dp"
+        android:layout_height="250dp"
         android:background="#efefef"
         android:textSize="48sp"
         android:layout_width="match_parent"
         android:maxLength="12"
+        android:padding="10dp"
+        android:gravity="center_vertical|right|bottom"
         />
     // Row 1
    <LinearLayout
@@ -23,7 +25,6 @@
        android:layout_weight="1"
        android:layout_marginTop="2dp"
        >
-
        <Button
            android:id="@+id/btnOne"
            android:layout_width="0dp"
@@ -61,8 +62,6 @@
            android:textSize="30sp"
            android:onClick="onOperator"
            ></Button>
-
-
    </LinearLayout>
     // Row 2
     <LinearLayout
@@ -109,11 +108,8 @@
             android:onClick="onOperator"
             ></Button>
 
-
     </LinearLayout>
-
     // Row 3
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
