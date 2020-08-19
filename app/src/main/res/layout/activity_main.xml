@@ -59,7 +59,7 @@
            android:layout_weight="1"
            android:text="/"
            android:textSize="30sp"
-           android:onClick="onDigit"
+           android:onClick="onOperator"
            ></Button>
 
 
@@ -106,7 +106,7 @@
             android:layout_weight="1"
             android:text="*"
             android:textSize="30sp"
-            android:onClick="onDigit"
+            android:onClick="onOperator"
             ></Button>
 
 
@@ -155,7 +155,7 @@
             android:layout_weight="1"
             android:text="-"
             android:textSize="30sp"
-            android:onClick="onDigit"
+            android:onClick="onOperator"
             ></Button>
 
     </LinearLayout>
@@ -203,7 +203,7 @@
             android:layout_weight="1"
             android:text="+"
             android:textSize="30sp"
-            android:onClick="onDigit"
+            android:onClick="onOperator"
             ></Button>
 
     </LinearLayout>
@@ -220,7 +220,7 @@
             android:layout_weight="1"
             android:text="="
             android:textSize="30sp"
-            android:onClick="onDigit"
+            android:onClick="onEqual"
             ></Button>
     </LinearLayout>
 
